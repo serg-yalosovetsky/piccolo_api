@@ -5,7 +5,7 @@ from piccolo.table import Table
 from piccolo_api.token_auth.tables import generate_token
 
 
-class BaseUser(Table, tablename="piccolo_user"):
+class BaseUser(Table, tablename="users"):
     pass
 
 
